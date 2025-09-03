@@ -50,13 +50,4 @@ document.addEventListener('DOMContentLoaded', () => {
         taskInput.value = '';
     }
 
-    // Event listeners
-    addButton.addEventListener('click', addTask);
-    taskInput.addEventListener('keypress', (event) => {
-        if (event.key === 'Enter') addTask();
-    });
-
-    // Load tasks on page load
-    loadTasks();
-});
 
